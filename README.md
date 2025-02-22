@@ -1,0 +1,2 @@
+# PHP Loose Comparison Bug
+This repository demonstrates a common error in PHP related to loose comparison (`==`) when checking if a variable is equal to zero.  The `bug.php` file shows the problematic code. The `bugSolution.php` offers a fix using strict comparison (`===`).  Loose comparison in PHP can lead to unexpected results when dealing with strings and numeric values. This is especially risky when handling user input that may not be of the expected type.
